@@ -1,0 +1,105 @@
+ 
+body {
+   background-color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+header h1 {
+   display: flex;
+   justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 60px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+}
+
+section {
+    display: flex;
+     padding: 25px;
+    text-align: center;
+    flex-direction: column
+}
+
+.info {
+    width: 40%;
+}
+
+.info h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+#about p {
+    margin: 2rem auto;
+}
+
+.projectText {
+display: flex;
+justify-content: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: lightslategrey;
+    color: wheat;
+    font-size: x-large;
+}
+
+article p {
+    margin-top: 20px;
+}
+
+article a {
+    display: flexbox;
+    
+}
+
+
+
+div {
+    
+    margin: 10px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none
+}
+
+
+
+
+
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
